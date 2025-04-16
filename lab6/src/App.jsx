@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import RecipeOfDay from './components/RecipeOfDay'
 import SummerRecipes from './components/SummerRecipes'
+import VideoRecipes from './components/VideoRecipes'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Header/>
       <RecipeOfDay/>
       <SummerRecipes/>
+      <VideoRecipes/>
       <Footer/>
     </Router>
   )
